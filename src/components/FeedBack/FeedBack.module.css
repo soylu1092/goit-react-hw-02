@@ -1,0 +1,31 @@
+.box {
+  border: none;
+  padding: 0;
+  margin: 0 0 28px 0;
+}
+
+.list {
+  margin: 18px 0 0 0;
+  padding-left: 0;
+  list-style: none;
+  display: block;
+}
+
+.list li {
+  margin: 10px 0;
+  font-size: 18px;
+  color: #111827;
+  line-height: 1.6;
+  font-weight: 500;
+}
+
+
+.list li::after {
+  content: "";
+}
+
+
+.list li:nth-last-child(2),
+.list li:nth-last-child(1) {
+  font-weight: 700;
+}

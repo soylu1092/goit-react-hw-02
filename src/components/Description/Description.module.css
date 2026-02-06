@@ -1,0 +1,20 @@
+.box {
+  margin-bottom: 22px;
+}
+
+.title {
+  margin: 0 0 18px 0;
+  font-size: 56px;            
+  line-height: 1.02;
+  font-weight: 800;
+  color: #0b1220;
+  letter-spacing: -0.02em;
+}
+
+.text {
+  margin: 0 0 18px 0;
+  font-size: 20px;            
+  line-height: 1.45;
+  color: #374151;
+  max-width: 920px;
+}
